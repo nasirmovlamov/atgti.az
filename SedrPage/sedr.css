@@ -1,0 +1,114 @@
+@font-face
+{
+    font-family: "DaxlinePro";
+    src:url('../Fonts/DaxlinePro-Bold.otf');
+    src:url('../Fonts/DaxlinePro-ExtraBold.otf');
+    src:url('../Fonts/DaxlinePro-Light.otf');
+    src:url('../Fonts/DaxlinePro-Medium.otf');
+    src:url('../Fonts/DaxlinePro.otf');
+
+    font-family: "Break Fill";
+    src:url('../Fonts/Break-Fill Bold.otf');
+    src:url('../Fonts/Break-Fill Extralight.otf');
+    src:url('../Fonts/Break-Fill Light.otf');
+    src:url('../Fonts/Break-Fill Regular.otf');
+    src:url('../Fonts/Break-Fill Semibold.otf');
+}
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: "DaxlinePro";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sadrPage .main 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sadrPage .imgAndSadrText
+{
+    display: flex;
+    width: 100%;
+    height: 501px;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    background: url("./images/titleBackground.png") no-repeat ;
+    background-size: cover;
+    color: #FFFFFF;  
+}
+.mainTextAndImageContainer
+{
+    width: 1486px;
+    font-size: 30px;
+    font-family: "Break Fill" ;
+    font-weight: 500;
+    display: flex;
+    margin-top: 153px;
+}
+
+.textAboutSadr   
+{
+    width: 797px;
+}
+.textAboutSadr p   
+{
+    margin-top: 42.5px;
+    margin-bottom: 0;
+    transform: scale(0.9);
+}
+.textAboutSadr p:nth-child(1)
+{
+    margin-top: 14.5px;
+}   
+.imageSedr
+{
+    transition: 0.5s;
+}
+.imageSedr:hover
+{
+    box-shadow: 0 0 25px 25px  rgba(0, 0, 0, 0.25);
+}
+
+.justTextContainer
+{
+    font-size: 29px;
+    font-family: "Break Fill" ;
+    font-weight: 500;
+    transform: scale(0.9);
+    width: 1534;
+}
+
+.ishtirakEtdiyiContanier
+{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ishtirakEtdiyiContanier h3
+{
+    margin: 0;
+    margin-top: 68px;
+}
+.ishtirakEtdiyiContanier p 
+{
+    font-size: 29px;
+    transform: scale(0.9);
+    font-family: "Break Fill" ;
+    margin: 0;
+    margin-top: 51px;
+}
+.ishtirakEtdiyiContanier p:nth-child(1)
+{
+    margin-top: 66px;
+
+}
+.ishtiraklar
+{
+    width: 1367px;
+}
