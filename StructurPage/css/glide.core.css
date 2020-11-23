@@ -1,0 +1,58 @@
+.glide {
+  position: relative;
+  display: flex;
+  margin: auto;
+  width: 1320px;
+  height: 100px;
+  justify-content: center;
+  box-sizing: border-box; }
+  .glide * {
+    box-sizing: inherit; }
+  .glide__track {
+    overflow: hidden; 
+    
+  }
+  .glide__slides {
+
+    list-style: none;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    touch-action: pan-Y;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    will-change: transform; 
+    padding-left: 0 !important;
+    padding-bottom: 40px;
+    width: 6580px !important;
+    column-gap: 45px;
+    padding-top: 40px;
+    margin-top: 30px;
+  }
+  .glide__slides:nth-child(1)
+  {
+    margin-left: 20px !important;
+  }
+    .glide__slides--dragging {
+      user-select: none; }
+  .glide__slide {
+    width: 495px !important;
+    height: 469px;
+    white-space: normal;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent; 
+    margin-left: 10px !important;
+  }
+    
+    .glide__slide a {
+      user-select: none;
+      -webkit-user-drag: none;
+      -moz-user-select: none;
+      -ms-user-select: none; }
+  .glide__arrows {
+    -webkit-touch-callout: none;
+    user-select: none; }
+  .glide__bullets {
+    -webkit-touch-callout: none;
+    user-select: none; }
+
