@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "DaxlinePro";
+  src: url("../Fonts/DaxlinePro-Bold.otf");
+  src: url("../Fonts/DaxlinePro-ExtraBold.otf");
+  src: url("../Fonts/DaxlinePro-Light.otf");
+  src: url("../Fonts/DaxlinePro-Medium.otf");
+  src: url("../Fonts/DaxlinePro.otf");
+  font-family: "Break Fill";
+  src: url("../Fonts/Break-Fill Bold.otf");
+  src: url("../Fonts/Break-Fill Extralight.otf");
+  src: url("../Fonts/Break-Fill Light.otf");
+  src: url("../Fonts/Break-Fill Regular.otf");
+  src: url("../Fonts/Break-Fill Semibold.otf");
+}
+
+.imgAndLayiheler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 501px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  background: url("../images/titleBackground.png") no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  color: #FFFFFF;
+  font-family: "DaxlinePro";
+}
+
+.layihelerPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.layihelerContainer {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 38px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding-top: 0;
+  margin-top: 140px;
+}
+
+.layiheler {
+  width: 464px;
+  height: 727px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.layiheler:hover .aboutLayiheler {
+  -webkit-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.imgContainer {
+  width: 464px;
+  height: 342px;
+}
+
+.imgContainer img {
+  width: 464px;
+  height: 342px;
+  border-bottom: 5px solid #4A0869;
+}
+
+.aboutLayiheler {
+  -webkit-transition: 1s;
+  transition: 1s;
+  width: 464px;
+  height: 389px;
+  z-index: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.aboutLayiheler hr {
+  margin-top: 31.5px;
+  margin-bottom: 0;
+  width: 76.5%;
+}
+
+.bashliq {
+  font-family: "DaxlinePro";
+  margin: 0;
+  padding: 40px;
+  padding-top: 35.5;
+  padding-bottom: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.layiheler .subBashliq {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 0;
+  width: 356px;
+  font-size: 21px;
+  font-family: "Break Fill";
+}
+
+.layiheler .dateAndReadMoreContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 364px;
+  margin-top: 20.5px;
+}
+
+.layiheler .dateAndReadMoreContainer p {
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  font-family: "DaxlinePro";
+  font-size: 22px;
+}
+
+.layiheler .bottomBorder {
+  position: absolute;
+  width: 130px;
+  height: 2px;
+  background-color: #4A0869;
+  margin-top: 725px;
+  margin-left: 334.5px;
+}
+
+.layiheler .rightBorder {
+  position: absolute;
+  height: 130px;
+  width: 2.5px;
+  background-color: #4A0869;
+  margin-top: 595px;
+  margin-left: 462px;
+  z-index: 5;
+}
+
+@media screen and (min-width: 1392px) {
+  .layihelerContainer {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+/*# sourceMappingURL=layiheler.css.map */

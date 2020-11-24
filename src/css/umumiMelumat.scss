@@ -1,0 +1,233 @@
+body 
+{
+    margin: 0;
+    padding:0;
+}
+
+@font-face
+{
+    font-family: "DaxlinePro";
+    src:url('../Fonts/DaxlinePro-Bold.otf');
+    src:url('../Fonts/DaxlinePro-ExtraBold.otf');
+    src:url('../Fonts/DaxlinePro-Light.otf');
+    src:url('../Fonts/DaxlinePro-Medium.otf');
+    src:url('../Fonts/DaxlinePro.otf');
+
+    font-family: "Break Fill";
+    src:url('../Fonts/Break-Fill Bold.otf');
+    src:url('../Fonts/Break-Fill Extralight.otf');
+    src:url('../Fonts/Break-Fill Light.otf');
+    src:url('../Fonts/Break-Fill Regular.otf');
+    src:url('../Fonts/Break-Fill Semibold.otf');
+
+    font-family: "LEMONMILK";
+    src: url("../Fonts/LEMONMILK-BoldItalic.otf Bold.otf");
+    src: url("../Fonts/LEMONMILK-Light.otf");
+    src: url("../Fonts/LEMONMILK-LightItalic.otf");
+    src: url("../Fonts/LEMONMILK-Medium.otf");
+    src: url("../Fonts/LEMONMILK-MediumItalic.otf");
+    src: url("../Fonts/LEMONMILK-Regular.otf");
+    src: url("../Fonts/LEMONMILK-RegularItalic.otf");
+
+}
+.imgAndUmumiMelumat {
+    display: flex;
+    width: 100%;
+    height: 501px;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    background: url("../images/titleBackground.png") no-repeat ;
+    background-size: cover;
+    background-position: left bottom;
+    color: #FFFFFF;
+    font-family: "DaxlinePro";
+}
+
+.umumiMelumatPage
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 139px;
+}
+.umumiText1
+{
+    width: 1200px;
+    p
+    {
+        margin: 0;
+        font-size: 24px;
+        font-family: "Break Fill";
+        &:nth-child(2)
+        {
+            margin-top: 42px;
+        }
+    }
+
+}
+
+.threeImg
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 700px;
+}
+
+.mainLogo
+{
+    position: absolute;
+    margin-top: -100px;
+}
+.img1,.img2,.img3
+{
+    position: relative;
+    margin-top: 150px;
+}
+.img1 , .img3
+{
+    margin-top: 216px;
+    position: absolute;
+
+}
+.img1 
+{
+    margin-left: -397px;
+}
+.img3 
+{
+    margin-left:405px ;
+}
+.img2
+{
+    z-index: 2;
+}
+
+.umumiText2
+{
+    font-size: 24px;
+    font-family: "Break Fill";
+    width: 1200px;
+    margin-top: 20px;
+}   
+
+.slider1
+{
+    width: 100%;
+    height: 770px;
+    background-color: black;
+    margin-top: 100px;
+}
+
+.umumiText3
+{
+    width: 1200px;
+    font-size: 24px;
+    font-family: "Break Fill";
+    margin-top: 30px;
+}
+
+.slider1
+{
+    background: url('../images/sliderImg.png') no-repeat;
+    background-size: left top; 
+}
+.glide_Container
+{
+    width: 72%;
+    height: 316px;
+    margin-top: 265px;
+    margin-right: 326px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "DaxlinePro";
+}
+.glide
+{
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.glide__slides
+{
+    text-align: center;
+    margin-left: 400px;
+}
+.glide__arrows button
+{
+    border: none;
+    &:nth-child(2)
+    {
+        margin-right: -200px;
+    }
+}
+
+.slider1_element1
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 482px;
+    height: 392px;
+    color: white;
+    .txt1
+    {
+        font-size: 22px;    
+        margin: 0;
+    }
+    .nmbr
+    {
+        font-family: "LEMONMILK" ;
+        font-size: 48px;
+        margin: 0;
+        margin-top: 30px;
+    }
+    .txt2Container 
+    {
+        width: 390px;
+        height: 120px;
+        margin-top: 15px;
+        
+        div 
+        {
+            float: left;
+            width: 40%;
+            &:nth-child(1)
+            {
+                width: 60%;
+            }
+            text-align: center;
+            .text3 , .text4
+            {
+                font-size: 20px;
+                font-family: "Break Fill";
+                margin: 0;
+                margin-top: 20px;
+            }
+            
+        }
+    }
+}
+.forBorder 
+{
+    border-right: 1px solid gray;
+}
+.nmbr2 , .nmbr3
+{
+    font-size: 29px;
+    font-family: "LEMONMILK";
+    margin: 0;
+    margin-top: 16px;
+}
+.terefdashlar
+{
+    .title
+    {
+        font-size: 35px;
+        font-family: "DaxlinePro";
+        margin-top: 65px;
+    }
+}
