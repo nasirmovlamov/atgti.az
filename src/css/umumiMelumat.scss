@@ -21,7 +21,7 @@ body
     src:url('../Fonts/Break-Fill Semibold.otf');
 
     font-family: "LEMONMILK";
-    src: url("../Fonts/LEMONMILK-BoldItalic.otf Bold.otf");
+    src: url("../Fonts/LEMONMILK-BoldItalic.otf");
     src: url("../Fonts/LEMONMILK-Light.otf");
     src: url("../Fonts/LEMONMILK-LightItalic.otf");
     src: url("../Fonts/LEMONMILK-Medium.otf");
@@ -29,6 +29,8 @@ body
     src: url("../Fonts/LEMONMILK-Regular.otf");
     src: url("../Fonts/LEMONMILK-RegularItalic.otf");
 
+    
+    
 }
 .imgAndUmumiMelumat {
     display: flex;
@@ -185,7 +187,9 @@ body
     .nmbr
     {
         font-family: "LEMONMILK"  ;
+        font-style: normal !important;
         font-size: 48px;
+        font-weight: 500;
         margin: 0;
         margin-top: 30px;
     }
@@ -223,6 +227,7 @@ body
 {
     font-size: 29px;
     font-family: "LEMONMILK";
+    font-stretch: normal !important;
     margin: 0;
     margin-top: 16px;
 }
@@ -290,6 +295,8 @@ body
     margin-top: 20px;
     margin-left: 40px;
     font-family: "LEMONMILK";
+    font-style: normal;
+    font-weight: 500;
     font-size: 28px;
     width: 80px;
     &:nth-child(1)
@@ -382,7 +389,14 @@ body
 
 .glide__bullet2
 {
-    background-color: rgba(255, 255, 255, 0.5);
+    background: #C4C4C4 !important;
     width: 18px !important;
     height: 18px !important;
+}
+.glide__bullet2:focus
+{
+    background: #386391 !important;
+    box-shadow: none !important;
+    border: none !important; 
+    outline: none !important;
 }
