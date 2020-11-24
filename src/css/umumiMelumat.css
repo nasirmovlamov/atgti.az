@@ -120,7 +120,6 @@ body {
 }
 
 .slider1 {
-  width: 100%;
   height: 770px;
   background-color: black;
   margin-top: 100px;
@@ -134,11 +133,11 @@ body {
 }
 
 .slider1 {
+  width: 100%;
   background: url("../images/sliderImg.png") no-repeat;
-  background-size: left top;
 }
 
-.glide_Container {
+.glide_Container1 {
   width: 72%;
   height: 316px;
   margin-top: 265px;
@@ -156,27 +155,32 @@ body {
   font-family: "DaxlinePro";
 }
 
-.glide {
+.glide1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 100%;
-}
-
-.glide__slides {
-  text-align: center;
+  width: 500px;
   margin-left: 400px;
 }
 
-.glide__arrows button {
+.glide__slides1 {
+  text-align: center;
+  margin-left: 200px;
+}
+
+.glide__arrows1 button {
   border: none;
 }
 
-.glide__arrows button:nth-child(2) {
-  margin-right: -200px;
+.glide__arrows1 button:nth-child(1) {
+  margin-left: -200px;
+}
+
+.glide__arrows1 button:nth-child(2) {
+  margin-right: -20px;
 }
 
 .slider1_element1 {
@@ -241,9 +245,187 @@ body {
   margin-top: 16px;
 }
 
+.txtContainerGrid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+  width: 548px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.txt_sosial {
+  font-size: 30px;
+}
+
+.slider1_elementGrid hr {
+  width: 40%;
+  height: 1px;
+  margin: 0;
+}
+
+.txtContainerGrid div p {
+  float: left;
+}
+
+.txtContainerGrid div:nth-child(1) {
+  width: 500px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.txtContainerGrid div:nth-child(2) {
+  width: 500px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.txtContainerGrid div:nth-child(1) p {
+  font-size: 20px;
+  margin: 0;
+  margin-left: 35px;
+  margin-top: 25px;
+}
+
+.txtContainerGrid div:nth-child(1) p:nth-child(1) {
+  margin-left: 0;
+}
+
+.txtContainerGrid div:nth-child(2) p {
+  font-size: 20px;
+  margin: 0;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 40px;
+  font-family: "LEMONMILK";
+  font-size: 28px;
+  width: 80px;
+}
+
+.txtContainerGrid div:nth-child(2) p:nth-child(1) {
+  margin-left: 0;
+}
+
+.terefdashlar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .terefdashlar .title {
   font-size: 35px;
   font-family: "DaxlinePro";
   margin-top: 65px;
+  text-align: center;
+}
+
+.terefdashlar .slider2 {
+  width: 1336px;
+  height: 267px;
+  -webkit-box-shadow: 0px 4px 41px 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 41px 7px rgba(0, 0, 0, 0.25);
+  margin-bottom: 100px;
+}
+
+.glide_slide2 {
+  width: 269px !important;
+  height: 269px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 1s -webkit-box-shadow;
+  transition: 1s -webkit-box-shadow;
+  transition: 1s box-shadow;
+  transition: 1s box-shadow, 1s -webkit-box-shadow;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  margin: 0 !important;
+  z-index: 2 !important;
+}
+
+.coverOverlay {
+  position: absolute;
+  width: 269px !important;
+  height: 269px !important;
+  border: 1px solid rgba(204, 196, 196, 0.5);
+}
+
+.mainOverlayLeft {
+  position: absolute;
+  height: 267px;
+}
+
+.mainOverlayRight {
+  position: absolute;
+  margin-left: 1187px;
+  height: 269px;
+}
+
+.glide_slide2:hover {
+  -webkit-box-shadow: 0px 4px 31px 15px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 31px 15px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 1s;
+  transition: 1s;
+  padding: -10px;
+  -webkit-filter: grayscale(0%);
+          filter: grayscale(0%);
+}
+
+.leftButton2 {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.rightButton2 {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.glide_bullets2 {
+  position: absolute;
+  margin-bottom: -100px !important;
+}
+
+.glide__bullet2 {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 18px !important;
+  height: 18px !important;
 }
 /*# sourceMappingURL=umumiMelumat.css.map */
