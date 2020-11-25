@@ -34,10 +34,12 @@
   left: 50%;
   display: inline-flex;
   list-style: none;
-  transform: translateX(-50%); }
+  transform: translateX(-50%); 
+  
+}
 
 .glide__bullet {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #C4C4C4;
   width: 9px;
   height: 9px;
   padding: 0;
@@ -50,11 +52,11 @@
   margin: 0 0.25em; }
   .glide__bullet:focus {
     outline: none; }
-  .glide__bullet:hover, .glide__bullet:focus {
+  .glide__bullet:hover {
     border: 2px solid white;
-    background-color: rgba(255, 255, 255, 0.5); }
+    background-color: #386391; }
   .glide__bullet--active {
-    background-color: white; }
+    background: #386391; }
 
 .glide--swipeable {
   cursor: grab;

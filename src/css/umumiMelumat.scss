@@ -133,6 +133,8 @@ body
 {
     width: 100%;
     background: url('../images/sliderImg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .glide_Container1
 {
@@ -221,7 +223,7 @@ body
 }
 .forBorder 
 {
-    border-right: 1px solid gray;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 .nmbr2 , .nmbr3
 {
@@ -256,6 +258,7 @@ body
         width: 40%;
         height: 1px;
         margin: 0;
+        border: 1px solid rgba(255, 255, 255, 0.3);
     }
 }
 .txtContainerGrid div p 
@@ -305,7 +308,12 @@ body
     }
 }
 
-
+.generalSlider
+{
+    display: flex;
+    width: 1346px !important;
+    margin: 0 !important;
+}
 
 
 
@@ -332,6 +340,11 @@ body
         margin-bottom: 100px;
     }
 }
+.glide__slides2
+{
+    width: 25000px !important;
+}
+
 .glide_slide2
 {
     width: 269px !important;
@@ -343,7 +356,7 @@ body
     filter: grayscale(100%);
     margin:0 !important;
     z-index: 2 !important;
-
+    
 }
 
 .coverOverlay
@@ -357,12 +370,26 @@ body
 {
     position: absolute;
     height: 267px;
+    opacity: 0;
+    transition: 1s;
 }
 .mainOverlayRight
 {
     position: absolute;
     margin-left: 1187px;
     height: 269px;
+    opacity: 0;
+}
+.leftHoverCover
+{
+    position: absolute;
+    width: 269px;
+    height: 267px;
+}
+.leftHoverCover:hover .mainOverlayLeft
+{
+    opacity: 1;
+    transition: 2s;
 }
 .glide_slide2:hover
 {
@@ -370,6 +397,26 @@ body
     transition: 1s;
     padding: -10px;
     filter: grayscale(0%);
+}
+.glide_slide2:hover  .leftRectangle 
+{
+    opacity: 1;
+    pointer-events: all;
+    transition: 2s;
+}
+.glide_slide2:hover  .rightRectangle 
+{
+    opacity: 0.5;
+    pointer-events: all;
+    transition: 2s;
+}
+.glide_slide2:nth-child(1)
+{
+    cursor: initial;
+}
+.glide_slide2:last-child
+{
+    cursor: initial;
 }
 .leftButton2
 {
@@ -386,17 +433,30 @@ body
     position: absolute;
     margin-bottom: -100px !important;
 }
-
 .glide__bullet2
 {
-    background: #C4C4C4 !important;
     width: 18px !important;
     height: 18px !important;
 }
-.glide__bullet2:focus
+.leftRectangle
 {
-    background: #386391 !important;
-    box-shadow: none !important;
-    border: none !important; 
-    outline: none !important;
+    position: absolute;
+    margin-left: -118px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 2s;
+
+}
+.rightRectangle 
+{
+    margin-left: 119.5px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    transition: 2s;
+    
+}
+.buttonOpc
+{
+    opacity: 0.75 !important;
 }

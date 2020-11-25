@@ -1,0 +1,194 @@
+@font-face {
+  font-family: "DaxlinePro";
+  src: url("../Fonts/DaxlinePro-Bold.otf");
+  src: url("../Fonts/DaxlinePro-ExtraBold.otf");
+  src: url("../Fonts/DaxlinePro-Light.otf");
+  src: url("../Fonts/DaxlinePro-Medium.otf");
+  src: url("../Fonts/DaxlinePro.otf");
+  font-family: "Break Fill";
+  src: url("../Fonts/Break-Fill Bold.otf");
+  src: url("../Fonts/Break-Fill Extralight.otf");
+  src: url("../Fonts/Break-Fill Light.otf");
+  src: url("../Fonts/Break-Fill Regular.otf");
+  src: url("../Fonts/Break-Fill Semibold.otf");
+}
+
+.imgAndTitleGoy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 501px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  background: url("../images/titleBackground.png") no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  color: #FFFFFF;
+  font-family: "DaxlinePro";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.esasnamePage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "DaxlinePro";
+}
+
+.esasnamePage .umumiMudduelar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+}
+
+.esasnamePage .umumiMudduelar p {
+  margin: 0;
+}
+
+.esasnamePage .umumiMudduelar .titleUmumi {
+  font-size: 46px;
+  margin-top: 100px;
+}
+
+.esasnamePage .umumiMudduelar .subtitleUmumi {
+  margin-top: 50px;
+}
+
+.esasnamePage .umumiMudduelar .subtitleUmumi p {
+  font-size: 24px;
+  font-family: "Break Fill";
+}
+
+.esasnamePage .meqsedVezife {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+}
+
+.esasnamePage .meqsedVezife .titleMeqsedVezife {
+  font-size: 46px;
+  margin-top: 100px;
+}
+
+.esasnamePage .meqsedVezife .subtitleMeqsedVezife {
+  margin-top: 20px;
+}
+
+.esasnamePage .meqsedVezife .subtitleMeqsedVezife p {
+  margin: 0;
+  line-height: 26px;
+  font-size: 24px;
+  font-family: "Break Fill";
+}
+
+.esasnamePage .teshkilatTelebe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+}
+
+.esasnamePage .teshkilatTelebe .titleTeshkilat {
+  font-size: 46px;
+  margin-top: 100px;
+}
+
+.esasnamePage .teshkilatTelebe .subtitleTeshkilat {
+  margin-top: 20px;
+}
+
+.esasnamePage .teshkilatTelebe .subtitleTeshkilat p {
+  margin: 0;
+  line-height: 26px;
+  font-size: 24px;
+  font-family: "Break Fill";
+}
+
+.esasnamePage .sanadlarContainer {
+  margin-top: 30px;
+  width: 1000px;
+  font-size: 40px;
+  font-family: "DaxlinePro" bold;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.esasnamePage .sanadlarContainer .sanadBashliqText {
+  margin: 0;
+  text-align: center;
+}
+
+.esasnamePage .sanadlarContainer .documentPng1 {
+  margin-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.esasnamePage .sanadlarContainer .documentPng2 {
+  margin-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 34px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.esasnamePage .sanadlarContainer .documentPng1:hover {
+  -webkit-box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+}
+
+.esasnamePage .sanadlarContainer .documentPng2:hover {
+  -webkit-box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+}
+/*# sourceMappingURL=esasname.css.map */

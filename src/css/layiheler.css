@@ -18,7 +18,7 @@ body {
   src: url("../Fonts/Break-Fill Semibold.otf");
 }
 
-.imgAndLayiheler {
+.imgAndTitleGoy {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,6 +135,8 @@ body {
   width: 356px;
   font-size: 21px;
   font-family: "Break Fill";
+  height: 139px;
+  overflow: hidden;
 }
 
 .layiheler .dateAndReadMoreContainer {

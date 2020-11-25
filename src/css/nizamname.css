@@ -90,6 +90,9 @@ body
     font-size: 40px;
     font-family: "DaxlinePro" bold;
     font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .sanadBashliqText
 {

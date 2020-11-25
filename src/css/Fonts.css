@@ -1,0 +1,15 @@
+@font-face
+{
+    font-family: "DaxlinePro";
+    src:url('../Fonts/DaxlinePro-Bold.otf');
+    src:url('../Fonts/DaxlinePro-ExtraBold.otf');
+    src:url('../Fonts/DaxlinePro-Light.otf');
+    src:url('../Fonts/DaxlinePro-Medium.otf');
+    src:url('../Fonts/DaxlinePro.otf');
+    font-family: "Break Fill";
+    src:url('../Fonts/Break-Fill Bold.otf');
+    src:url('../Fonts/Break-Fill Extralight.otf');
+    src:url('../Fonts/Break-Fill Light.otf');
+    src:url('../Fonts/Break-Fill Regular.otf');
+    src:url('../Fonts/Break-Fill Semibold.otf');
+}

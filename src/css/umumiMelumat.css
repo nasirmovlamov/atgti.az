@@ -135,6 +135,8 @@ body {
 .slider1 {
   width: 100%;
   background: url("../images/sliderImg.png") no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .glide_Container1 {
@@ -237,7 +239,7 @@ body {
 }
 
 .forBorder {
-  border-right: 1px solid gray;
+  border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .nmbr2, .nmbr3 {
@@ -273,6 +275,7 @@ body {
   width: 40%;
   height: 1px;
   margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .txtContainerGrid div p {
@@ -329,6 +332,14 @@ body {
   margin-left: 0;
 }
 
+.generalSlider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1346px !important;
+  margin: 0 !important;
+}
+
 .terefdashlar {
   width: 100%;
   display: -webkit-box;
@@ -359,6 +370,10 @@ body {
   -webkit-box-shadow: 0px 4px 41px 7px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 41px 7px rgba(0, 0, 0, 0.25);
   margin-bottom: 100px;
+}
+
+.glide__slides2 {
+  width: 25000px !important;
 }
 
 .glide_slide2 {
@@ -393,12 +408,28 @@ body {
 .mainOverlayLeft {
   position: absolute;
   height: 267px;
+  opacity: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .mainOverlayRight {
   position: absolute;
   margin-left: 1187px;
   height: 269px;
+  opacity: 0;
+}
+
+.leftHoverCover {
+  position: absolute;
+  width: 269px;
+  height: 267px;
+}
+
+.leftHoverCover:hover .mainOverlayLeft {
+  opacity: 1;
+  -webkit-transition: 2s;
+  transition: 2s;
 }
 
 .glide_slide2:hover {
@@ -409,6 +440,28 @@ body {
   padding: -10px;
   -webkit-filter: grayscale(0%);
           filter: grayscale(0%);
+}
+
+.glide_slide2:hover .leftRectangle {
+  opacity: 1;
+  pointer-events: all;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.glide_slide2:hover .rightRectangle {
+  opacity: 0.5;
+  pointer-events: all;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.glide_slide2:nth-child(1) {
+  cursor: initial;
+}
+
+.glide_slide2:last-child {
+  cursor: initial;
 }
 
 .leftButton2 {
@@ -429,16 +482,29 @@ body {
 }
 
 .glide__bullet2 {
-  background: #C4C4C4 !important;
   width: 18px !important;
   height: 18px !important;
 }
 
-.glide__bullet2:focus {
-  background: #386391 !important;
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  border: none !important;
-  outline: none !important;
+.leftRectangle {
+  position: absolute;
+  margin-left: -118px;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.rightRectangle {
+  margin-left: 119.5px;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.buttonOpc {
+  opacity: 0.75 !important;
 }
 /*# sourceMappingURL=umumiMelumat.css.map */
