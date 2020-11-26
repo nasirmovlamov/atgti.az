@@ -32,53 +32,67 @@ body
     font-family: "DaxlinePro";
 }
 
-.qrafikTesvirPage
+
+
+.atgtiHaqqindaPage
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    .qrafikTesvir
+    font-family: Break Fill;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    
+    .text1Cont
     {
-        font-family: "DaxlinePro";
-        width: 1151px;
-        height: 451px;
-        margin-top: 130px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        &:nth-child(2)
-        {   
-            margin-top: 40px;
-        }
-
-        .titleQrafikTesvir 
+        margin-top: 100px;
+        width: 1200px;
+        p
         {
-            width: 900px;
-            text-align: center;
-            font-size: 35px;
             margin: 0;
-            opacity: 0.9;
-        }
-        .imgQrafik 
-        {
-            margin-top: 80px;
-            display: flex;
-            column-gap: 45px;
-            div 
+            margin-top: 20px;
+            &:nth-child(1)
             {
-                width: 90px;
-                height: 165px;
-                border-bottom: 4px solid white;
-                &:hover 
-                {
-                    border-bottom: 4px solid #2C5A8C;
-                    transition: 2s;
-                }
-                img 
-                {
-                    margin-left: -6.8px;
-                }
+                margin-top: 0;
             }
         }
     }
+
+    .imgCont 
+    {
+        margin-top: 50px;
+        img 
+        {
+            filter: grayscale(100%) opacity(0.15);
+        }
+    }
+
+
+    .text2Cont 
+    {
+        margin-top: 50px;
+        width: 1200px;
+        p
+        {
+            margin: 0;
+            margin-top: 20px;
+            &:nth-child(1)
+            {
+                margin-top: 0;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }

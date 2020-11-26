@@ -64,6 +64,11 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu on hover */
 }
 
 .reytingCedveliPage .buttonConatiner {
@@ -98,10 +103,13 @@ body {
   outline: none;
 }
 
+.reytingCedveliPage .buttonConatiner .subButtonConatiner button:nth-child(2) {
+  margin-left: 30px;
+}
+
 .reytingCedveliPage .buttonConatiner .applyButton {
   float: right;
-  background: -webkit-gradient(linear, left top, right top, color-stop(99.99%, #465E93), to(#85EEFF));
-  background: linear-gradient(90deg, #465E93 99.99%, #85EEFF 100%);
+  background: #465E93;
   height: 70px;
   width: 16%;
   border-radius: 40px;
@@ -122,10 +130,19 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .reytingCedveliPage .buttonConatiner .applyButton:focus {
   outline: none;
+}
+
+.reytingCedveliPage .buttonConatiner .applyButton:hover {
+  color: white;
+  background: #4A0869;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .reytingCedveliPage .buttonConatiner .applyButton p {
@@ -204,5 +221,58 @@ body {
   font-size: 21px;
   font-family: "DaxlinePro";
   padding: 10px;
+}
+
+.reytingCedveliPage .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.reytingCedveliPage .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.reytingCedveliPage .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 375px;
+  margin-left: 10px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 18px;
+  border-radius: 10px;
+}
+
+.reytingCedveliPage .dropdown-content2 {
+  min-width: 70%;
+  margin-left: 10%;
+}
+
+.reytingCedveliPage .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  color: #475f94;
+  font-size: 14px;
+  text-align: start;
+}
+
+.reytingCedveliPage .dropdown-content a:hover {
+  background-color: #0074BE;
+  color: white;
+  border-left: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+.reytingCedveliPage .dropdown:focus .dropdown-content {
+  display: block;
 }
 /*# sourceMappingURL=reytingCedveli.css.map */

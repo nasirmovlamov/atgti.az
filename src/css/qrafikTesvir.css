@@ -68,11 +68,16 @@ body {
           align-items: center;
 }
 
+.qrafikTesvirPage .qrafikTesvir:nth-child(2) {
+  margin-top: 40px;
+}
+
 .qrafikTesvirPage .qrafikTesvir .titleQrafikTesvir {
-  width: 1200px;
+  width: 900px;
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
   margin: 0;
+  opacity: 0.9;
 }
 
 .qrafikTesvirPage .qrafikTesvir .imgQrafik {
@@ -80,16 +85,23 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 35px;
-          column-gap: 35px;
+  -webkit-column-gap: 45px;
+          column-gap: 45px;
 }
 
 .qrafikTesvirPage .qrafikTesvir .imgQrafik div {
-  width: 150px;
-  height: 225px;
+  width: 90px;
+  height: 165px;
+  border-bottom: 4px solid white;
 }
 
 .qrafikTesvirPage .qrafikTesvir .imgQrafik div:hover {
   border-bottom: 4px solid #2C5A8C;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.qrafikTesvirPage .qrafikTesvir .imgQrafik div img {
+  margin-left: -6.8px;
 }
 /*# sourceMappingURL=qrafikTesvir.css.map */

@@ -59,7 +59,7 @@ body
                 width: 500px;
                 margin-top: 30px;
                 border: none;
-                border-bottom: 1px solid  #000000;
+                border-bottom: 1px solid   rgba(0, 0, 0, 0.3);
                 font-family: "DaxlinePro";
                 font-style: normal;
                 font-weight: normal;
@@ -70,7 +70,7 @@ body
             textarea 
             {
                 width: 460px;
-                margin-top: 30px;
+                margin-top: 40px;
                 border: none;
                 border-bottom: 1px solid  #000000;
                 font-family: DaxlinePro;
@@ -78,7 +78,7 @@ body
                 font-weight: normal;
                 font-size: 16px;
                 resize: none;
-                border: 1px solid #000000;
+                border: 1px solid rgba(0, 0, 0, 0.3);
                 padding: 20px;
             }
             input:focus , textarea:focus
@@ -96,6 +96,23 @@ body
                 margin-top: 10px;
                 font-family: "DaxlinePro";
                 font-size: 16px;
+                transition: 1s ;
+
+                &:hover 
+                {
+                    border: 1px solid #531470;
+                    background: none;
+                    color:#531470;
+
+                    transition: 1s;
+                }
+                &:focus 
+                {
+                    background: #531470;
+                    color: white;
+                    transition: 0.3s;
+                    outline: none;
+                }
             }
         }  
     }
@@ -117,11 +134,8 @@ body
             z-index: 2;
             position: absolute;
             transition: 1s box-shadow;
-            &:hover 
-            {
-                box-shadow: -2px 4px 31px 6px rgba(0, 0, 0, 0.25);
-                transition: 1s;
-            }
+            box-shadow: -2px 4px 31px 6px rgba(0, 0, 0, 0.25);
+            
             .imgContact
             {
                 width: 687px;

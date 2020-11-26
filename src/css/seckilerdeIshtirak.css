@@ -85,19 +85,21 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-column-gap: 20%;
-          column-gap: 20%;
+  -webkit-column-gap: 10%;
+          column-gap: 10%;
 }
 
 .sechkilerdeIshtirakPage .logoAndHorizontalContainer .leftHorizontal {
-  width: 30%;
+  width: 90%;
   height: 1px;
   background-color: #1648A5;
+  opacity: 0.3;
 }
 
 .sechkilerdeIshtirakPage .logoAndHorizontalContainer .rightHorizontal {
-  width: 30%;
+  width: 90%;
   height: 1px;
   background-color: #1648A5;
+  opacity: 0.3;
 }
 /*# sourceMappingURL=seckilerdeIshtirak.css.map */

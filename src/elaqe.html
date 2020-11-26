@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/elaqe.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -14,7 +16,7 @@
 
     <div class="elaqePage">
 
-        <div class="formAndContact">
+        <div class="formAndContact" data-aos="fade-up">
             <div class="form">
                 <form action="">
                     <input type="text" placeholder="Ad və soyad" required>
@@ -61,21 +63,35 @@
             </div>
 
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.4602685963664!2d49.82208871064017!3d40.37649051104867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307daf4d466e61%3A0x2c63e4080e26c834!2sAzerbaijan%20Student%20Youth%20Organizations&#39;%20Union!5e0!3m2!1sen!2s!4v1606293167629!5m2!1sen!2s" width="100%" height="750" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-
-
-
-        
-    
-
-
-
-
-
-
-
+        <iframe data-aos="fade-left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.4602685963664!2d49.82208871064017!3d40.37649051104867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307daf4d466e61%3A0x2c63e4080e26c834!2sAzerbaijan%20Student%20Youth%20Organizations&#39;%20Union!5e0!3m2!1sen!2s!4v1606293167629!5m2!1sen!2s" width="100%" height="750" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 2000, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
 </body>
 </html>

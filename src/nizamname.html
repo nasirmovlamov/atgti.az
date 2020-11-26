@@ -1,6 +1,8 @@
 <html>
     <head>
         <link href="./css/nizamname.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     </head>
 
     
@@ -11,21 +13,21 @@
     </div>
 
     <main class="qanunlarTextContainer">
-        <div class="mainText1">
+        <div class="mainText1" data-aos="fade-up">
             <h3>I. ÜMUMİ MÜDDƏALAR</h3>
             <p>1.1. «Azərbaycan Tələbə Gənclər Təşkilatları» İttifaqı (bundan sonra İttifaq adlandırılacaq) ümumi maraqlar əsasında birləşmiş, könüllülük, iştirakçılarının hüquq bərabərliyi prinsipləri əsasında yaradılan qeyri-kommersiya təşkilatıdır və fəaliyyəti Azərbaycan Respublikasının ərazisini əhatə edir.</p> 
             <p>1.2.İttifaq öz fəaliyyətini Azərbaycan Respublikasının Konstitusiyası, Azərbaycan Respublikasının Mülki Məcəlləsi, «Hüquqi şəxslərin dövlət qeydiyyatı və dövlət reyestri haqqında» Azərbaycan Respublikasının Qanunu, digər normativ-hüquqi aktlar və bu Nizamnamə əsasında keçirir. </p>   
             <p>1.3.İttifaq Azərbaycan Respublikasının Ədliyyə Nazirliyində dövlət qeydiyyatına alındığı vaxtdan hüquqi şəxs statusu qazanır. İttifaqın müstəqil balansı, üzərində adı yazılmış möhürü, ştampı, Azərbaycan Respublikasının banklarında hesablaşma hesabı və digər rekvizitlər vardır. 1.4. İttifaqın yerləşdiyi ünvan: Bakı şəhəri, Mətbuat prospekti, məhəllə 504, ev 2, mənzil 17.</p>
         </div>
 
-        <div class="mainText2">
+        <div class="mainText2" data-aos="fade-up">
             <h3>II. İTTİFAQIN FƏALİYYƏTİNİNİN PREDMETİ VƏ MƏQSƏDİ</h3>
             <p> 2.1. İttifaqın məqsədi öz iştirakçılarının fəaliyyətlərini əlaqələndirmək, habelə ümumi mənafelərini təmsil və müdafiə etməkdən ibarətdir. </p>
             <p>    2.2. İttifaq məqsədlərinə çatmaq üçün aşağıdakı vəzifələri həyata keçirir. öz iştirakçılarının maraqlarının qorunması ilə bağlı müxtəlif təşkilatlarla əlaqələr qurur; müxtəlif kurslar və seminarlar, dəyirmi masa və görüşlər, sərgilər təşkil edir, konfranslar, xeyriyyə marafonları, digər mədəni-kütləvi tədbirlər keçirir; məqsədləri və fəaliyyəti barədə məlumatı sərbəst yayır; qanunvericiliklə müəyyən olunmuş digər vəzifələri həyata keçirir.</p> 
             <p>2.3. İttifaq Azərbaycan Respublikası Prezidentinin, Azərbaycan Respublikası Milli Məclisinin və bələdiyyələrin seçkilərində iştirak edə bilməz.</p>
         </div>
         
-        <div class="sanadlarContainer">
+        <div class="sanadlarContainer" data-aos="fade-left">
             <p class="sanadBashliqText">Sənədlər</p>
             <div>
                 <img class="documentPng1 documentPng" src="./images/ATGTI_Nizamname_Page_1.jpg" width="360" height="466"/>
@@ -33,5 +35,31 @@
             </div>
         </div>
     </main>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+      AOS.init({
+        // Global settings:
+        disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+        startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+        initClassName: 'aos-init', // class applied after initialization
+        animatedClassName: 'aos-animate', // class applied on animation
+        useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+        disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+        debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+        throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+        
+
+        // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+        offset: 120, // offset (in px) from the original trigger point
+        delay: 0, // values from 0 to 3000, with step 50ms
+        duration: 2000, // values from 0 to 3000, with step 50ms
+        easing: 'ease', // default easing for AOS animations
+        once: false, // whether animation should happen only once - while scrolling down
+        mirror: false, // whether elements should animate out while scrolling past them
+        anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    </script>
 </div>
 </html>

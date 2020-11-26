@@ -59,8 +59,10 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: 1s;
 }
-.tedbirler:hover .aboutTedbirler
+.tedbirler:hover
 {
     box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
     transition: 1s;
@@ -79,7 +81,6 @@ body
 }
 .aboutTedbirler
 {
-    transition: 1s;
 
     width: 464px;
     height: 389px;
@@ -89,9 +90,11 @@ body
     align-items: center;
     hr 
     {
-        margin-top: 31.5px;
+        position: absolute;
+        margin-top: 290px;
         margin-bottom: 0;
-        width: 76.5%;
+        width:340px;
+        border: 1px solid rgba(0,0,0,0.1);
     }
 
 }
@@ -105,6 +108,8 @@ body
     padding-bottom: 0;
     font-size: 20px;
     text-align: center;
+    height: 72px;
+    overflow: hidden;
 }
 .subBashliq
 {
@@ -112,10 +117,10 @@ body
     padding-top: 25px;
     padding-bottom: 0;
     width: 356px;
+    overflow: hidden;
     font-size: 21px;
     font-family: "Break Fill";
-    height: 140px;
-    overflow: hidden;
+    height: 139px;
 }
 .dateAndReadMoreContainer
 {
@@ -123,7 +128,8 @@ body
     justify-content: start;
     flex-direction: row;
     width: 364px;
-    margin-top: 20.5px;
+    margin-top: 330.5px;
+    position: absolute;
     div
     {
         width: 49%;
@@ -152,6 +158,8 @@ body
     margin-top: 725px;
     margin-left: 335px;
     z-index: 5;
+    opacity: 0.8;
+
 }
 .rightBorder 
 {
@@ -160,9 +168,9 @@ body
     width: 2.5px;
     background-color: #F9C612;
     margin-top: 595px;
-    margin-left: 462px;
+    margin-left: 463px;
     z-index: 5;
-
+    opacity: 0.8;
 }
 
 @media screen and (min-width: 1392px) {

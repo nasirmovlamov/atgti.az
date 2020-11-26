@@ -237,6 +237,10 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    &:focus 
+    {
+        outline: none;
+    }
 }
 .rightButton
 {
@@ -246,6 +250,10 @@ body
     border: none;
     background: #465E93;
     box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
+    &:focus 
+    {
+        outline: none;
+    }
 }
 .idareHeyet
 {
@@ -260,16 +268,17 @@ body
 .avatarTextContainer
 {
     background: #465E93;
-    width: 100%;
+    width: 382px;
     color: white;
     font-size: 29px;
     text-align: center;
     height: 62px;
     display: flex;
-    margin-top: 29px;
+    margin-top: 407px;
     flex-direction: column;
     justify-content: center;
     transition: 1s background-color;
+    position: absolute;
 }
 .avatarTextContainer p
 {
@@ -279,10 +288,10 @@ body
 .idareImg
 {
     z-index: 0.5;
-    width: 327px;
-    height: 378px;
-    padding-top: 51px;
+    width: 382px;
+    height: 489px;
     opacity: 1;
+    overflow: hidden;
 }
 .idareHeyet:hover  .overlay 
 {

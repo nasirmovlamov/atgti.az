@@ -58,10 +58,12 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    transition: 1s ;
     
 }
 
-.layiheler:hover .aboutLayiheler
+.layiheler:hover 
     {
         box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
         transition: 1s ;
@@ -80,7 +82,6 @@ body
 .aboutLayiheler
 {
     transition: 1s ;
-
     width: 464px;
     height: 389px;
     z-index: 0.5;
@@ -89,9 +90,11 @@ body
     align-items: center;
     hr 
     {
-        margin-top: 31.5px;
+        position: absolute;
+        margin-top: 290px;
         margin-bottom: 0;
-        width: 76.5%;
+        width:340px;
+        border: 1px solid rgba(0,0,0,0.1);
     }
 
 }
@@ -105,6 +108,8 @@ body
     padding-bottom: 0;
     font-size: 20px;
     text-align: center;
+    height: 72px;
+    overflow: hidden;
 }
 .layiheler .subBashliq
 {
@@ -112,10 +117,10 @@ body
     padding-top: 25px;
     padding-bottom: 0;
     width: 356px;
+    overflow: hidden;
     font-size: 21px;
     font-family: "Break Fill";
     height: 139px;
-    overflow: hidden;
 }
 .layiheler .dateAndReadMoreContainer
 {
@@ -123,8 +128,8 @@ body
     justify-content: start;
     flex-direction: row;
     width: 364px;
-    margin-top: 20.5px;
-    
+    margin-top: 330.5px;
+    position: absolute;
     p 
     {
         width: 100%;
@@ -143,6 +148,8 @@ body
     background-color: #4A0869;
     margin-top: 725px;
     margin-left: 334.5px;
+    opacity: 0.5;
+
 }
 .layiheler .rightBorder 
 {
@@ -151,9 +158,9 @@ body
     width: 2.5px;
     background-color: #4A0869;
     margin-top: 595px;
-    margin-left: 462px;
+    margin-left: 463px;
     z-index: 5;
-
+    opacity: 0.5;
 }
 
 @media screen and (min-width: 1392px) {

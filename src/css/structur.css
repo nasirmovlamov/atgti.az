@@ -297,6 +297,10 @@ body {
           align-items: center;
 }
 
+.leftButton:focus {
+  outline: none;
+}
+
 .rightButton {
   width: 46px;
   height: 46px;
@@ -305,6 +309,10 @@ body {
   background: #465E93;
   -webkit-box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rightButton:focus {
+  outline: none;
 }
 
 .idareHeyet {
@@ -326,7 +334,7 @@ body {
 
 .avatarTextContainer {
   background: #465E93;
-  width: 100%;
+  width: 382px;
   color: white;
   font-size: 29px;
   text-align: center;
@@ -334,7 +342,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 29px;
+  margin-top: 407px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -344,6 +352,7 @@ body {
           justify-content: center;
   -webkit-transition: 1s background-color;
   transition: 1s background-color;
+  position: absolute;
 }
 
 .avatarTextContainer p {
@@ -353,10 +362,10 @@ body {
 
 .idareImg {
   z-index: 0.5;
-  width: 327px;
-  height: 378px;
-  padding-top: 51px;
+  width: 382px;
+  height: 489px;
   opacity: 1;
+  overflow: hidden;
 }
 
 .idareHeyet:hover .overlay {
