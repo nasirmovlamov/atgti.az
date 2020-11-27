@@ -1,0 +1,2494 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "DaxlinePro";
+  src: url("../Fonts/DaxlinePro-Bold.otf");
+  src: url("../Fonts/DaxlinePro-ExtraBold.otf");
+  src: url("../Fonts/DaxlinePro-Light.otf");
+  src: url("../Fonts/DaxlinePro-Medium.otf");
+  src: url("../Fonts/DaxlinePro.otf");
+  font-family: "Break Fill";
+  src: url("../Fonts/Break-Fill Bold.otf");
+  src: url("../Fonts/Break-Fill Extralight.otf");
+  src: url("../Fonts/Break-Fill Light.otf");
+  src: url("../Fonts/Break-Fill Regular.otf");
+  src: url("../Fonts/Break-Fill Semibold.otf");
+}
+
+.imgAndTitleGoy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 501px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  background: url("../images/titleBackground.png") no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  color: #FFFFFF;
+  font-family: "DaxlinePro";
+}
+
+.atgtiHaqqindaPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: Break Fill;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.atgtiHaqqindaPage .text1Cont {
+  margin-top: 100px;
+  width: 1200px;
+}
+
+.atgtiHaqqindaPage .text1Cont p {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.atgtiHaqqindaPage .text1Cont p:nth-child(1) {
+  margin-top: 0;
+}
+
+.atgtiHaqqindaPage .imgCont {
+  margin-top: 50px;
+}
+
+.atgtiHaqqindaPage .imgCont img {
+  -webkit-filter: grayscale(100%) opacity(0.15);
+          filter: grayscale(100%) opacity(0.15);
+}
+
+.atgtiHaqqindaPage .text2Cont {
+  margin-top: 50px;
+  width: 1200px;
+}
+
+.atgtiHaqqindaPage .text2Cont p {
+  margin: 0;
+  margin-top: 20px;
+}
+
+.atgtiHaqqindaPage .text2Cont p:nth-child(1) {
+  margin-top: 0;
+}
+
+.metbuatdaPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.metbuatdaPage .bizMetbuatdaContainer {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 38px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 205px;
+  padding-top: 0;
+  margin-top: 140px;
+}
+
+.metbuatdaPage .muessiseler {
+  width: 464px;
+  height: 727px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.metbuatdaPage .muessiseler:hover {
+  -webkit-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.metbuatdaPage .imgContainer {
+  width: 464px;
+  height: 342px;
+}
+
+.metbuatdaPage .imgContainer img {
+  width: 464px;
+  height: 342px;
+  border-bottom: 5px solid #465E93;
+}
+
+.metbuatdaPage .aboutMuessiseler {
+  -webkit-transition: 1s;
+  transition: 1s;
+  width: 464px;
+  height: 389px;
+  z-index: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.metbuatdaPage .aboutMuessiseler hr {
+  position: absolute;
+  margin-top: 295.5px;
+  margin-bottom: 0;
+  width: 400px;
+  opacity: 0.3;
+}
+
+.metbuatdaPage .bashliq {
+  font-family: "DaxlinePro";
+  margin: 0;
+  padding: 40px;
+  padding-top: 35.5;
+  height: 40px;
+  padding-bottom: 0;
+  font-size: 17px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.metbuatdaPage .subBashliq {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 0;
+  width: 356px;
+  font-size: 18px;
+  font-family: "Break Fill";
+  height: 180px;
+  overflow: hidden;
+}
+
+.metbuatdaPage .dateAndReadMoreContainer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 364px;
+  margin-top: 325.5px;
+}
+
+.metbuatdaPage .dateAndReadMoreContainer div {
+  width: 49%;
+  font-family: Break Fill;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.metbuatdaPage .dateAndReadMoreContainer p {
+  width: 49%;
+  text-align: right;
+  margin: 0;
+  font-family: "DaxlinePro";
+  font-size: 22px;
+}
+
+.metbuatdaPage .dateAndReadMoreContainer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.metbuatdaPage .bottomBorder {
+  position: absolute;
+  width: 130px;
+  height: 2px;
+  background-color: #465E93;
+  margin-top: 725px;
+  margin-left: 335px;
+  z-index: 5;
+  opacity: 0.7;
+}
+
+.metbuatdaPage .rightBorder {
+  position: absolute;
+  height: 130px;
+  width: 2.5px;
+  background-color: #465E93;
+  margin-top: 595px;
+  margin-left: 463px;
+  z-index: 5;
+  opacity: 0.7;
+}
+
+@media screen and (min-width: 1392px) {
+  .metbuatdaPage .bizMetbuatdaContainer {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.elaqePage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.elaqePage .formAndContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-column-gap: 70px;
+          column-gap: 70px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.elaqePage .formAndContact .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 220px;
+}
+
+.elaqePage .formAndContact .form form {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.elaqePage .formAndContact .form form input {
+  height: 30px;
+  width: 500px;
+  margin-top: 30px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  font-family: "DaxlinePro";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-bottom: 0px;
+}
+
+.elaqePage .formAndContact .form form textarea {
+  width: 460px;
+  margin-top: 40px;
+  border: none;
+  border-bottom: 1px solid  #000000;
+  font-family: DaxlinePro;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  resize: none;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 20px;
+}
+
+.elaqePage .formAndContact .form form input:focus, .elaqePage .formAndContact .form form textarea:focus {
+  outline: none;
+}
+
+.elaqePage .formAndContact .form form button {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  background: #531470;
+  border: none;
+  color: white;
+  width: 116px;
+  height: 35px;
+  margin-top: 10px;
+  font-family: "DaxlinePro";
+  font-size: 16px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.elaqePage .formAndContact .form form button:hover {
+  border: 1px solid #531470;
+  background: none;
+  color: #531470;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.elaqePage .formAndContact .form form button:focus {
+  background: #531470;
+  color: white;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  outline: none;
+}
+
+.elaqePage .formAndContact .contactContainer {
+  width: 804px;
+  height: 701px;
+  margin-top: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.elaqePage .formAndContact .contactContainer .contact {
+  width: 687px;
+  height: 583px;
+  background: white;
+  z-index: 2;
+  position: absolute;
+  -webkit-transition: 1s -webkit-box-shadow;
+  transition: 1s -webkit-box-shadow;
+  transition: 1s box-shadow;
+  transition: 1s box-shadow, 1s -webkit-box-shadow;
+  -webkit-box-shadow: -2px 4px 31px 6px rgba(0, 0, 0, 0.25);
+          box-shadow: -2px 4px 31px 6px rgba(0, 0, 0, 0.25);
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact {
+  width: 687px;
+  height: 583px;
+  background: url("../images/diamond-upholstery 54.png");
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo {
+  padding-top: 60px;
+  color: #531470;
+  font-size: 22px;
+  font-family: "Break Fill";
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .number, .elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .mail {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .number img, .elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .mail img {
+  margin-bottom: 20px;
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .number p, .elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .mail p {
+  margin: 10px;
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .mail img {
+  margin-top: 30px;
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .mail p {
+  margin: 10px;
+  margin-top: 0;
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .location img {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo .location p {
+  margin: 10px;
+}
+
+.elaqePage .formAndContact .contactContainer .contact .imgContact .contactInfo a {
+  color: #531470;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.elaqePage .formAndContact .contactContainer .justOverlay {
+  width: 365px;
+  height: 700px;
+  background-color: #531470;
+  position: relative;
+  margin-top: -10px;
+  margin-left: 500px;
+}
+
+.elaqePage #map {
+  height: 400px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
+
+.elaqePage iframe {
+  margin-top: 170px;
+}
+
+.esasnamePage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "DaxlinePro";
+}
+
+.esasnamePage .umumiMudduelar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+}
+
+.esasnamePage .umumiMudduelar p {
+  margin: 0;
+}
+
+.esasnamePage .umumiMudduelar .titleUmumi {
+  font-size: 46px;
+  margin-top: 100px;
+}
+
+.esasnamePage .umumiMudduelar .subtitleUmumi {
+  margin-top: 50px;
+}
+
+.esasnamePage .umumiMudduelar .subtitleUmumi p {
+  font-size: 24px;
+  font-family: "Break Fill";
+}
+
+.esasnamePage .meqsedVezife {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+}
+
+.esasnamePage .meqsedVezife .titleMeqsedVezife {
+  font-size: 46px;
+  margin-top: 100px;
+}
+
+.esasnamePage .meqsedVezife .subtitleMeqsedVezife {
+  margin-top: 20px;
+}
+
+.esasnamePage .meqsedVezife .subtitleMeqsedVezife p {
+  margin: 0;
+  line-height: 26px;
+  font-size: 24px;
+  font-family: "Break Fill";
+}
+
+.esasnamePage .teshkilatTelebe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 1200px;
+}
+
+.esasnamePage .teshkilatTelebe .titleTeshkilat {
+  font-size: 46px;
+  margin-top: 100px;
+}
+
+.esasnamePage .teshkilatTelebe .subtitleTeshkilat {
+  margin-top: 20px;
+}
+
+.esasnamePage .teshkilatTelebe .subtitleTeshkilat p {
+  margin: 0;
+  line-height: 26px;
+  font-size: 24px;
+  font-family: "Break Fill";
+}
+
+.esasnamePage .sanadlarContainer {
+  margin-top: 100px;
+  width: 1000px;
+  font-size: 35px;
+  font-family: "DaxlinePro" bold;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.esasnamePage .sanadlarContainer .sanadBashliqText {
+  margin: 0;
+}
+
+.esasnamePage .sanadlarContainer .documentPng1 {
+  margin-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.esasnamePage .sanadlarContainer .documentPng2 {
+  margin-top: 50px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 34px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.esasnamePage .sanadlarContainer .documentPng1:hover {
+  -webkit-box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+}
+
+.esasnamePage .sanadlarContainer .documentPng2:hover {
+  -webkit-box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+}
+
+.layihelerPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.layihelerPage .layihelerContainer {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 38px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding-top: 0;
+  margin-top: 140px;
+}
+
+.layihelerPage .layiheler {
+  width: 464px;
+  height: 727px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.layihelerPage .layiheler:hover {
+  -webkit-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.layihelerPage .imgContainer {
+  width: 464px;
+  height: 342px;
+}
+
+.layihelerPage .imgContainer img {
+  width: 464px;
+  height: 342px;
+  border-bottom: 5px solid #4A0869;
+}
+
+.layihelerPage .aboutLayiheler {
+  -webkit-transition: 1s;
+  transition: 1s;
+  width: 464px;
+  height: 389px;
+  z-index: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.layihelerPage .aboutLayiheler hr {
+  position: absolute;
+  margin-top: 290px;
+  margin-bottom: 0;
+  width: 340px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.layihelerPage .bashliq {
+  font-family: "DaxlinePro";
+  margin: 0;
+  padding: 40px;
+  padding-top: 35.5;
+  padding-bottom: 0;
+  font-size: 20px;
+  text-align: center;
+  height: 72px;
+  overflow: hidden;
+}
+
+.layihelerPage .layiheler .subBashliq {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 0;
+  width: 356px;
+  overflow: hidden;
+  font-size: 21px;
+  font-family: "Break Fill";
+  height: 139px;
+}
+
+.layihelerPage .layiheler .dateAndReadMoreContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 364px;
+  margin-top: 330.5px;
+  position: absolute;
+}
+
+.layihelerPage .layiheler .dateAndReadMoreContainer p {
+  width: 100%;
+  text-align: right;
+  margin: 0;
+  font-family: "DaxlinePro";
+  font-size: 22px;
+}
+
+.layihelerPage .layiheler .bottomBorder {
+  position: absolute;
+  width: 130px;
+  height: 2px;
+  background-color: #4A0869;
+  margin-top: 725px;
+  margin-left: 334.5px;
+  opacity: 0.5;
+}
+
+.layihelerPage .layiheler .rightBorder {
+  position: absolute;
+  height: 130px;
+  width: 2.5px;
+  background-color: #4A0869;
+  margin-top: 595px;
+  margin-left: 463px;
+  z-index: 5;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 1392px) {
+  .layihelerPage .layihelerContainer {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.muessiselerPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.muessiselerPage .muessiselerContainer {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 38px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 205px;
+  padding-top: 0;
+  margin-top: 140px;
+}
+
+.muessiselerPage .muessiseler {
+  width: 464px;
+  height: 727px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.muessiselerPage .muessiseler:hover {
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+}
+
+.muessiselerPage .imgContainer {
+  width: 464px;
+  height: 342px;
+}
+
+.muessiselerPage .imgContainer img {
+  width: 464px;
+  height: 342px;
+  border-bottom: 5px solid #531470;
+}
+
+.muessiselerPage .aboutMuessiseler {
+  -webkit-transition: 1s;
+  transition: 1s;
+  width: 464px;
+  height: 389px;
+  z-index: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.muessiselerPage .aboutMuessiseler hr {
+  margin-top: 20.5px;
+  margin-bottom: 0;
+  width: 76.5%;
+  opacity: 0.2;
+}
+
+.muessiselerPage .bashliq {
+  font-family: "DaxlinePro";
+  margin: 0;
+  padding: 40px;
+  padding-top: 35.5;
+  padding-bottom: 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.muessiselerPage .subBashliq {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 0;
+  width: 356px;
+  font-size: 21px;
+  font-family: "Break Fill";
+  height: 185px;
+  overflow: hidden;
+}
+
+.muessiselerPage .dateAndReadMoreContainer {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 364px;
+  margin-top: 325.5px;
+}
+
+.muessiselerPage .dateAndReadMoreContainer div {
+  width: 49%;
+  font-family: Break Fill;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.muessiselerPage .dateAndReadMoreContainer p {
+  width: 49%;
+  text-align: right;
+  margin: 0;
+  font-family: "DaxlinePro";
+  font-size: 22px;
+}
+
+.muessiselerPage .dateAndReadMoreContainer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.muessiselerPage .bottomBorder {
+  position: absolute;
+  width: 130px;
+  height: 2px;
+  background-color: #531470;
+  margin-top: 725px;
+  margin-left: 335px;
+  z-index: 5;
+  opacity: 0.5;
+}
+
+.muessiselerPage .rightBorder {
+  position: absolute;
+  height: 130px;
+  width: 2.5px;
+  background-color: #531470;
+  margin-top: 595px;
+  margin-left: 463px;
+  z-index: 5;
+  opacity: 0.5;
+}
+
+@media screen and (min-width: 1392px) {
+  .muessiselerPage .muessiselerContainer {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.nizamnamePage .imgAndNizamnameText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 501px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  background: url("../images/titleBackground.png") no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  color: #FFFFFF;
+}
+
+.nizamnamePage .qanunlarTextContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 1000px;
+  width: 100%;
+}
+
+.nizamnamePage .mainText1 {
+  margin-top: 107px;
+  width: 1121px;
+}
+
+.nizamnamePage .mainText1 h3 {
+  font-size: 40px;
+}
+
+.nizamnamePage mainText1 p {
+  font-size: 24px;
+  margin-top: 45px;
+  font-family: "Break Fill Regular";
+  font-weight: 500;
+}
+
+.nizamnamePage .mainText2 {
+  margin-top: 50px;
+  width: 1121px;
+}
+
+.nizamnamePage .mainText2 p {
+  font-size: 24px;
+  margin-top: 45px;
+  font-family: "Break Fill Regular";
+  font-weight: 500;
+}
+
+.nizamnamePage .mainText2 h3 {
+  font-size: 40px;
+}
+
+.nizamnamePage .sanadlarContainer {
+  margin-top: 30px;
+  width: 1121px;
+  font-size: 40px;
+  font-family: "DaxlinePro" bold;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nizamnamePage .sanadBashliqText {
+  margin: 0;
+}
+
+.nizamnamePage .documentPng1 {
+  margin-top: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.nizamnamePage .documentPng2 {
+  margin-top: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 34px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nizamnamePage .documentPng1:hover {
+  -webkit-box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+}
+
+.nizamnamePage .documentPng2:hover {
+  -webkit-box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+}
+
+.nizamnamePage .overlay {
+  position: absolute;
+  width: 360px;
+  height: 466px;
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background: rgba(73, 71, 71, 0.63);
+}
+
+.nizamnamePage .imageContainer1:hover .overlay {
+  opacity: 0.63;
+}
+
+.nizamnamePage .imageContainer2:hover .overlay {
+  opacity: 0.63;
+}
+
+.qrafikTesvirPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qrafikTesvirPage .qrafikTesvir {
+  font-family: "DaxlinePro";
+  width: 1151px;
+  height: 451px;
+  margin-top: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.qrafikTesvirPage .qrafikTesvir:nth-child(2) {
+  margin-top: 40px;
+}
+
+.qrafikTesvirPage .qrafikTesvir .titleQrafikTesvir {
+  width: 900px;
+  text-align: center;
+  font-size: 35px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.qrafikTesvirPage .qrafikTesvir .imgQrafik {
+  margin-top: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 45px;
+          column-gap: 45px;
+}
+
+.qrafikTesvirPage .qrafikTesvir .imgQrafik div {
+  width: 90px;
+  height: 165px;
+  border-bottom: 4px solid white;
+}
+
+.qrafikTesvirPage .qrafikTesvir .imgQrafik div:hover {
+  border-bottom: 4px solid #2C5A8C;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.qrafikTesvirPage .qrafikTesvir .imgQrafik div img {
+  margin-left: -6.8px;
+}
+
+.nizamnamePage {
+  font-family: "DaxlinePro";
+}
+
+.nizamnamePage .imgAndNizamnameText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 501px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  background: url("../images/titleBackground.png") no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  color: #FFFFFF;
+}
+
+.nizamnamePage .qanunlarTextContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 1000px;
+  width: 100%;
+}
+
+.nizamnamePage .mainText1 {
+  margin-top: 107px;
+  width: 1121px;
+}
+
+.nizamnamePage .mainText1 h3 {
+  font-size: 40px;
+}
+
+.nizamnamePage .mainText1 p {
+  font-size: 24px;
+  margin-top: 45px;
+  font-family: "Break Fill Regular";
+  font-weight: 500;
+}
+
+.nizamnamePage .mainText2 {
+  margin-top: 50px;
+  width: 1121px;
+}
+
+.nizamnamePage .mainText2 p {
+  font-size: 24px;
+  margin-top: 45px;
+  font-family: "Break Fill Regular";
+  font-weight: 500;
+}
+
+.nizamnamePage .mainText2 h3 {
+  font-size: 40px;
+}
+
+.nizamnamePage .sanadlarContainer {
+  margin-top: 30px;
+  width: 1121px;
+  font-size: 40px;
+  font-family: "DaxlinePro" bold;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nizamnamePage .sanadBashliqText {
+  margin: 0;
+}
+
+.nizamnamePage .documentPng1 {
+  margin-top: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.nizamnamePage .documentPng2 {
+  margin-top: 100px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-left: 34px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nizamnamePage .documentPng1:hover {
+  -webkit-box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+}
+
+.nizamnamePage .documentPng2:hover {
+  -webkit-box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 28px 11px rgba(0, 0, 0, 0.25);
+}
+
+.nizamnamePage .overlay {
+  position: absolute;
+  width: 360px;
+  height: 466px;
+  opacity: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  background: rgba(73, 71, 71, 0.63);
+}
+
+.nizamnamePage .imageContainer1:hover .overlay {
+  opacity: 0.63;
+}
+
+.nizamnamePage .imageContainer2:hover .overlay {
+  opacity: 0.63;
+}
+
+.reytingCedveliPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* The container <div> - needed to position the dropdown content */
+  /* Dropdown Content (Hidden by Default) */
+  /* Links inside the dropdown */
+  /* Change color of dropdown links on hover */
+  /* Show the dropdown menu on hover */
+}
+
+.reytingCedveliPage .generalConatiner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.reytingCedveliPage .buttonConatiner {
+  margin-top: 80px;
+  width: 80%;
+  height: 100px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.reytingCedveliPage .buttonConatiner .subButtonConatiner {
+  float: left;
+  width: 60%;
+}
+
+.reytingCedveliPage .buttonConatiner .subButtonConatiner button {
+  width: 45%;
+  height: 60px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(5.63%, #465E93), color-stop(50%, #0074BE));
+  background: linear-gradient(90deg, #465E93 5.63%, #0074BE 50%);
+  border: none;
+  border-radius: 20px;
+  color: white;
+  font-family: Comfortaa;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.reytingCedveliPage .buttonConatiner .subButtonConatiner button:focus {
+  outline: none;
+}
+
+.reytingCedveliPage .buttonConatiner .subButtonConatiner button:nth-child(2) {
+  margin-left: 30px;
+}
+
+.reytingCedveliPage .buttonConatiner .applyButton {
+  float: right;
+  background: #465E93;
+  height: 70px;
+  width: 16%;
+  border-radius: 40px;
+  color: white;
+  border: 2px solid white;
+  font-size: 23px;
+  font-family: "DaxlinePro";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.reytingCedveliPage .buttonConatiner .applyButton:focus {
+  outline: none;
+}
+
+.reytingCedveliPage .buttonConatiner .applyButton:hover {
+  color: white;
+  background: #4A0869;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.reytingCedveliPage .buttonConatiner .applyButton p {
+  width: 100%;
+  height: 50px;
+  border: 2px solid white;
+  border-radius: 30px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.reytingCedveliPage .tableReyting {
+  -ms-flex-item-align: center;
+      align-self: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 75%;
+  margin-top: 60px;
+}
+
+.reytingCedveliPage .tableReyting table {
+  border-spacing: 0px;
+  width: 100%;
+  -webkit-box-shadow: 3px 3px 20px -7px;
+          box-shadow: 3px 3px 20px -7px;
+}
+
+.reytingCedveliPage .tableReyting table thead {
+  -webkit-box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.1);
+  outline: 1px solid black;
+  width: 100%;
+}
+
+.reytingCedveliPage .tableReyting table thead td {
+  border-right: 2px solid #C4C4C4;
+  height: 50px;
+  border: 1px solid #C4C4C4;
+}
+
+.reytingCedveliPage .tableReyting table tbody {
+  width: 100%;
+}
+
+.reytingCedveliPage .tableReyting table tbody tr {
+  height: 60px;
+}
+
+.reytingCedveliPage .tableReyting table tbody tr:nth-child(odd) {
+  background: url("../images/Group 54.png") no-repeat;
+}
+
+.reytingCedveliPage .tableReyting table tbody tr td {
+  font-family: "Futurica";
+  border: 1px solid #C4C4C4;
+}
+
+.reytingCedveliPage .tableReyting table tbody tr td:nth-child(1), .reytingCedveliPage .tableReyting table tbody tr td:nth-child(2) {
+  font-family: "DaxlinePro";
+}
+
+.reytingCedveliPage .tableReyting table td {
+  text-align: center;
+  font-size: 21px;
+  font-family: "DaxlinePro";
+  padding: 10px;
+}
+
+.reytingCedveliPage .dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.reytingCedveliPage .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.reytingCedveliPage .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 375px;
+  margin-left: 10px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 18px;
+  border-radius: 10px;
+}
+
+.reytingCedveliPage .dropdown-content2 {
+  min-width: 70%;
+  margin-left: 10%;
+}
+
+.reytingCedveliPage .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  color: #475f94;
+  font-size: 14px;
+  text-align: start;
+}
+
+.reytingCedveliPage .dropdown-content a:hover {
+  background-color: #0074BE;
+  color: white;
+  border-left: 4px solid rgba(0, 0, 0, 0.5);
+}
+
+.reytingCedveliPage .dropdown:focus .dropdown-content {
+  display: block;
+}
+
+.sechkilerdeIshtirakPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sechkilerdeIshtirakPage .text1 {
+  font-family: Break Fill;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  width: 1200px;
+  margin-top: 100px;
+}
+
+.sechkilerdeIshtirakPage .text2 {
+  font-family: Break Fill;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: left;
+  width: 1200px;
+  margin-top: 100px;
+}
+
+.sechkilerdeIshtirakPage .text2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.sechkilerdeIshtirakPage .logoAndHorizontalContainer {
+  margin-top: 100px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 10%;
+          column-gap: 10%;
+}
+
+.sechkilerdeIshtirakPage .logoAndHorizontalContainer .leftHorizontal {
+  width: 90%;
+  height: 1px;
+  background-color: #1648A5;
+  opacity: 0.3;
+}
+
+.sechkilerdeIshtirakPage .logoAndHorizontalContainer .rightHorizontal {
+  width: 90%;
+  height: 1px;
+  background-color: #1648A5;
+  opacity: 0.3;
+}
+
+.sadrPage {
+  margin: 0;
+  padding: 0;
+  font-family: "DaxlinePro";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.sadrPage .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sadrPage .imgAndSadrText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 501px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  background: url("../images/titleBackground.png") no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.sadrPage .mainTextAndImageContainer {
+  width: 1486px;
+  font-size: 30px;
+  font-family: "Break Fill";
+  font-weight: 500;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 153px;
+}
+
+.sadrPage .textAboutSadr {
+  width: 797px;
+}
+
+.sadrPage .textAboutSadr p {
+  margin-top: 42.5px;
+  margin-bottom: 0;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.sadrPage .textAboutSadr p:nth-child(1) {
+  margin-top: 14.5px;
+}
+
+.sadrPage .imageSedr {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sadrPage .imageSedr:hover {
+  -webkit-box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.25);
+}
+
+.sadrPage .justTextContainer {
+  font-size: 29px;
+  font-family: "Break Fill";
+  font-weight: 500;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  width: 1534;
+}
+
+.sadrPage .ishtirakEtdiyiContanier {
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sadrPage .ishtirakEtdiyiContanier h3 {
+  margin: 0;
+  margin-top: 68px;
+}
+
+.sadrPage .ishtirakEtdiyiContanier p {
+  font-size: 29px;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  font-family: "Break Fill";
+  margin: 0;
+  margin-top: 51px;
+}
+
+.sadrPage .ishtirakEtdiyiContanier p:nth-child(1) {
+  margin-top: 66px;
+}
+
+.sadrPage .ishtiraklar {
+  width: 1367px;
+}
+
+.StructurBody {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.StructurBody .imagesContainerForKatibler {
+  margin-top: 60px;
+  background-color: none;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-column-gap: 98px;
+  grid-row-gap: 170px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.StructurBody .structurPage {
+  font-family: "DaxlinePro";
+  width: 100%;
+}
+
+.StructurBody .imgAndStructur {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 501px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  background: url("../images/titleBackground.png") no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+}
+
+.StructurBody .structurPage main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.StructurBody .textAboutStructur {
+  margin-top: 109px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 30px;
+}
+
+.StructurBody .textAboutStructur p {
+  margin: 0;
+  padding: 0px;
+  font-size: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1270px;
+  margin-top: 46.5px;
+  font-family: "Break Fill";
+}
+
+.StructurBody .textAboutStructur p:nth-child(1) {
+  margin-top: 0px;
+}
+
+.StructurBody .textIcra {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.StructurBody .title {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.StructurBody .mainContainer {
+  margin-top: 60px;
+  background-color: none;
+  width: 100%;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-column-gap: 98px;
+  grid-row-gap: 170px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+}
+
+.StructurBody .mainContainer .card {
+  width: 394px;
+  height: 646px;
+  background-color: white;
+}
+
+.StructurBody .lastItemCenterChecker {
+  -ms-grid-column: 2;
+      grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.StructurBody .avatarImage {
+  width: 394px;
+  height: 526px;
+  position: absolute;
+}
+
+.StructurBody .aboutKatibContainer p {
+  margin: 0;
+}
+
+.StructurBody .logoAtgti {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin-top: 14px;
+  margin-left: 7px;
+  z-index: 1;
+}
+
+.StructurBody .contentAboutAvatar {
+  width: 350px;
+  height: 178px;
+  position: absolute;
+  margin-top: 432px;
+  margin-left: 24px;
+  background: #465E93;
+  padding-top: 36px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: -webkit-box-shadow 0.5s;
+  transition: -webkit-box-shadow 0.5s;
+  transition: box-shadow 0.5s;
+  transition: box-shadow 0.5s, -webkit-box-shadow 0.5s;
+}
+
+.StructurBody .contentAboutAvatar hr {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 70%;
+  position: absolute;
+  margin-top: 100px;
+}
+
+.StructurBody .contentAboutAvatar i {
+  color: white;
+  width: 28px;
+  font-size: 28px;
+  margin-left: 18px;
+}
+
+.StructurBody .contentAboutAvatar i:nth-child(2) {
+  margin-left: 10px;
+}
+
+.StructurBody .avatarName {
+  margin: 0;
+  font-size: 29px;
+  font-weight: 700;
+  color: white;
+}
+
+.StructurBody .avatarSubText {
+  margin: 0;
+  font-size: 21px;
+  font-family: Break Fill;
+  color: #CDCDCD;
+  width: 50x !important;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.StructurBody .iconContainer {
+  position: absolute;
+  margin-top: 120px;
+}
+
+.StructurBody .card:hover .contentAboutAvatar {
+  -webkit-box-shadow: 31px -36px 30px rgba(0, 0, 0, 0.25);
+          box-shadow: 31px -36px 30px rgba(0, 0, 0, 0.25);
+}
+
+.StructurBody .idareHeyetiContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.StructurBody .subContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-gap: 82.5px;
+  margin-top: 41px;
+}
+
+.StructurBody .buttonContainer {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  width: 110px;
+  height: 46px;
+  position: absolute;
+  margin-left: 1155px;
+  top: 5%;
+}
+
+.StructurBody .leftButton {
+  width: 46px;
+  height: 46px;
+  float: left;
+  border: none;
+  background: #465E93;
+  -webkit-box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.StructurBody .leftButton:focus {
+  outline: none;
+}
+
+.StructurBody .rightButton {
+  width: 46px;
+  height: 46px;
+  float: right;
+  border: none;
+  background: #465E93;
+  -webkit-box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 5px 1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.StructurBody .rightButton:focus {
+  outline: none;
+}
+
+.StructurBody .idareHeyet {
+  width: 395px;
+  height: 489px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0px  0px 13px 13px  lightgray;
+          box-shadow: 0px  0px 13px 13px  lightgray;
+}
+
+.StructurBody .avatarTextContainer {
+  background: #465E93;
+  width: 382px;
+  color: white;
+  font-size: 29px;
+  text-align: center;
+  height: 62px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 427px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 1s background-color;
+  transition: 1s background-color;
+  position: absolute;
+}
+
+.StructurBody .avatarTextContainer p {
+  margin: 0;
+  z-index: 1;
+}
+
+.StructurBody .idareImg {
+  z-index: 0.5;
+  width: 382px;
+  height: 489px;
+  opacity: 1;
+  overflow: hidden;
+}
+
+.StructurBody .idareHeyet:hover .overlay {
+  opacity: 1;
+}
+
+.StructurBody .idareHeyet:hover .avatarTextContainer {
+  background: rgba(70, 94, 147, 0.83);
+}
+
+.StructurBody .overlay {
+  position: absolute;
+  opacity: 0;
+  width: 382px;
+  height: 427px;
+  background: rgba(70, 94, 147, 0.83);
+  padding-top: 82px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.StructurBody .overlay img {
+  margin-top: 20px;
+}
+
+.StructurBody .overlay p {
+  margin: 0;
+  margin-top: 26.5px;
+  color: white;
+  text-align: center;
+  font-size: 21px;
+}
+
+.StructurBody .overlay hr {
+  margin: 0px;
+  position: absolute;
+  margin-top: 175px;
+  width: 70%;
+}
+
+.StructurBody .overlay .iconContainer2 {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  grid-gap: 10px;
+}
+
+.StructurBody .overlay .iconContainer2 i {
+  color: white;
+  width: 28px;
+  font-size: 28px;
+  margin-left: 18px;
+}
+
+.StructurBody .overlay .iconContainer2 i:nth-child(2) {
+  margin-left: 10px;
+}
+
+.StructurBody .overlay p {
+  font-family: Break Fill;
+}
+
+@media screen and (min-width: 1392px) {
+  .StructurBody .mainContainer {
+    margin-top: 60px;
+    background-color: none;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-column-gap: 98px;
+    grid-row-gap: 170px;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.tedbirlerPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tedbirlerPage .imgAndTedbirler {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 501px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 60px;
+  background: url("../images/titleBackground.png") no-repeat;
+  background-size: cover;
+  background-position: left bottom;
+  color: #FFFFFF;
+  font-family: "DaxlinePro";
+}
+
+.tedbirlerPage .tedbirlerContainer {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 38px;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  padding: 205px;
+  padding-top: 0;
+  margin-top: 140px;
+}
+
+.tedbirlerPage .tedbirler {
+  width: 464px;
+  height: 727px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.tedbirlerPage .tedbirler:hover {
+  -webkit-box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 10px 9px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.tedbirlerPage .imgContainer {
+  width: 464px;
+  height: 342px;
+}
+
+.tedbirlerPage .imgContainer img {
+  width: 464px;
+  height: 342px;
+  border-bottom: 5px solid #F9C612;
+}
+
+.tedbirlerPage .aboutTedbirler {
+  width: 464px;
+  height: 389px;
+  z-index: 0.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tedbirlerPage .aboutTedbirler hr {
+  position: absolute;
+  margin-top: 290px;
+  margin-bottom: 0;
+  width: 340px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tedbirlerPage .bashliq {
+  font-family: "DaxlinePro";
+  margin: 0;
+  padding: 40px;
+  padding-top: 35.5;
+  padding-bottom: 0;
+  font-size: 20px;
+  text-align: center;
+  height: 72px;
+  overflow: hidden;
+}
+
+.tedbirlerPage .subBashliq {
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 0;
+  width: 356px;
+  overflow: hidden;
+  font-size: 21px;
+  font-family: "Break Fill";
+  height: 139px;
+}
+
+.tedbirlerPage .dateAndReadMoreContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 364px;
+  margin-top: 330.5px;
+  position: absolute;
+}
+
+.tedbirlerPage .dateAndReadMoreContainer div {
+  width: 49%;
+  font-family: Break Fill;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.tedbirlerPage .dateAndReadMoreContainer p {
+  width: 49%;
+  text-align: right;
+  margin: 0;
+  font-family: "DaxlinePro";
+  font-size: 22px;
+}
+
+.tedbirlerPage .bottomBorder {
+  position: absolute;
+  width: 130px;
+  height: 2px;
+  background-color: #F9C612;
+  margin-top: 725px;
+  margin-left: 335px;
+  z-index: 5;
+  opacity: 0.8;
+}
+
+.tedbirlerPage .rightBorder {
+  position: absolute;
+  height: 130px;
+  width: 2.5px;
+  background-color: #F9C612;
+  margin-top: 595px;
+  margin-left: 463px;
+  z-index: 5;
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1392px) {
+  .tedbirlerPage .tedbirlerContainer {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.tgtSeckileriPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tgtSeckileriPage .tgtConatiner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 90px;
+  -webkit-column-gap: 280px;
+          column-gap: 280px;
+}
+
+.tgtSeckileriPage .tgtConatiner .universtyTxt {
+  font-family: Break Fill;
+  font-size: 24px;
+  font-style: normal;
+  text-align: left;
+}
+
+.tgtSeckileriPage .tgtConatiner .universtyTxt p {
+  margin-top: 35px;
+}
+
+.tgtSeckileriPage .tgtConatiner .universtyTxt p a {
+  text-decoration: none;
+  color: black;
+}
+
+.tgtSeckileriPage .tgtConatiner .logo {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  opacity: 0.15;
+}
+
+.vakansiyalarPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 100px;
+}
+
+.vakansiyalarPage .vakansiyalar {
+  width: 1200px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 60px;
+  margin-top: 100px;
+}
+
+.vakansiyalarPage .vakansiya {
+  width: 600px;
+  height: 450px;
+  background: url("../images/diamond-upholstery 54.png") no-repeat;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vakansiyalarPage .vakansiya .vakansiyaTitle {
+  margin: 0;
+  margin-top: 45px;
+  text-align: center;
+  font-family: "DaxlinePro";
+  font-size: 40px;
+}
+
+.vakansiyalarPage .vakansiya .aboutVakansiya {
+  width: 500px;
+  margin-top: 50px;
+}
+
+.vakansiyalarPage .vakansiya .aboutVakansiya .textAboutVakansiya {
+  margin: 0;
+  font-family: "Break Fill";
+  font-size: 25px;
+}
+
+.vakansiyalarPage .vakansiya .aboutVakansiya .readMore {
+  width: 177px;
+  height: 39px;
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-top: 20px;
+  float: right;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.vakansiyalarPage .vakansiya .aboutVakansiya .readMore pre {
+  margin: 0;
+  font-size: 17px;
+  font-family: "DaxlinePro";
+  width: 100px;
+}
+
+.vakansiyalarPage .vakansiya .aboutVakansiya .readMore:focus {
+  outline: none;
+}
+
+.vakansiyalarPage .vakansiya:hover {
+  -webkit-box-shadow: 0px 0px 66px 11px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 66px 11px rgba(0, 0, 0, 0.25);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+/*# sourceMappingURL=whole.css.map */
